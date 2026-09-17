@@ -1,5 +1,5 @@
 <p align="left">
-  <img src="docs/assets/bcq-logo.svg" alt="BCQuality logo" width="500">
+  <img src="docs/assets/bcq-logo.svg" alt="BCQuality logo" width="300">
 </p>
 
 Quality skills and knowledge that help AI tools make better Business Central

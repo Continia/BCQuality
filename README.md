@@ -1,4 +1,4 @@
-<p align="center">
+<p align="left">
   <img src="docs/assets/bcq-logo.svg" alt="BCQuality logo" width="500">
 </p>
 

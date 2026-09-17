@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="docs/assets/bcq-logo.svg" alt="BCQuality logo" width="720">
+</p>
+
 # BCQuality
 
 Quality skills and knowledge that help AI tools make better Business Central

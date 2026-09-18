@@ -1,3 +1,5 @@
+# BC Quality - Don’t teach one agent. Teach the ecosystem. 🤝
+
 Quality skills and knowledge that help AI tools make better Business Central
 development decisions: catch BC-specific defects, avoid misleading advice,
 and explain findings with references you can read.

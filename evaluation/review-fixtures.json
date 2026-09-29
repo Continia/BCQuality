@@ -5,11 +5,30 @@
   "minimumCleanRate": 1.0,
   "coverageWaivers": [],
   "overrides": {
+    "appsource": {
+      "articles": [
+        "define-profiles-as-al-objects",
+        "file-datatype-saas"
+      ]
+    },
     "agents": {
       "article": "wire-all-three-agent-interfaces"
     },
     "breaking-changes": {
-      "article": "do-not-expose-sensitive-data-through-public-api"
+      "articles": [
+        "do-not-expose-sensitive-data-through-public-api",
+        "prefer-email-module"
+      ]
+    },
+    "data-modeling": {
+      "articles": [
+        "check-blocked-in-referencing-code-not-in-master",
+        "check-post-line-batch-pattern",
+        "dimension-management-wiring",
+        "do-not-change-primary-key",
+        "item-ledger-entry-document-no-follows-last-shipping-no",
+        "testfield-required-setup-field"
+      ]
     },
     "events": {
       "article": "reset-ishandled-only-when-the-value-can-carry-over"
@@ -39,7 +58,8 @@
         "job-queue-handlers-must-not-require-ui",
         "job-queue-handlers-must-propagate-failures",
         "job-queue-on-hold-does-not-stop-running-work",
-        "store-scheduled-task-id-to-avoid-duplicate-tasks"
+        "store-scheduled-task-id-to-avoid-duplicate-tasks",
+        "document-report-word-layout"
       ]
     },
     "privacy": {
@@ -83,13 +103,20 @@
     "security": {
       "articles": [
         "al-has-no-built-in-htmlencode",
-        "do-not-concatenate-external-text-into-setfilter"
+        "do-not-concatenate-external-text-into-setfilter",
+        "indirect-permissions-for-elevated-access"
       ]
     },
     "style": {
       "articles": [
         "label-comment-explains-placeholders",
-        "dateformula-evaluate-needs-language-independent-literals"
+        "dateformula-evaluate-needs-language-independent-literals",
+        "al-identifiers-english",
+        "binary-choice-must-be-boolean",
+        "fixed-choice-set-must-use-enum-not-integer",
+        "intrinsic-al-functions-must-use-modern-casing",
+        "namespace-must-be-verified-from-source",
+        "var-parameters-require-an-addressable-variable"
       ]
     },
     "telemetry": {
@@ -98,7 +125,11 @@
     "testing": {
       "articles": [
         "ui-handlers-in-tests",
-        "reset-per-test-state-before-the-isinitialized-guard"
+        "reset-per-test-state-before-the-isinitialized-guard",
+        "test-data-must-be-random-and-complete",
+        "use-generateguid-for-unique-test-fixture-values",
+        "use-testpage-editable-to-verify-field-editability",
+        "use-testpage-visible-enabled-to-verify-field-ui-state"
       ]
     },
     "upgrade": {
@@ -111,7 +142,9 @@
         "handle-httpclient-platform-failure-before-response-access",
         "check-http-status-before-consuming-response-body",
         "check-json-null-before-converting-values",
-        "format-exchanged-values-with-standard-format-9"
+        "format-exchanged-values-with-standard-format-9",
+        "api-page-key-fields-must-be-editable-on-insert",
+        "stored-derived-fields-must-not-be-exposed-directly"
       ]
     }
   }
